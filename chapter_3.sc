@@ -42,7 +42,5 @@ def problem5(): Unit = {
 
 }
 
-
-
 def problem6() =
   for (i <- (1 to 100)) println(s"""${if(i%15==0) "typesafe" else if(i%3==0) "type" else if(i%5==0) "safe" else i}""")
